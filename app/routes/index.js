@@ -12,7 +12,6 @@ module.exports  = function(app) {
         .get(api.busca)
         .put(api.atualiza);
 
-    app.get('/v1/grupos', api.listaGrupos)
     app.get('/v1/fotos/grupo/:grupoId', api.listaPorGrupo);
         
 
